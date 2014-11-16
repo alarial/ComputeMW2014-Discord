@@ -2,5 +2,12 @@
 	"FileVersion": 3,
 	"EngineAssociation": "4.5",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Discord",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
 }

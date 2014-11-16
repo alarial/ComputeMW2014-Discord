@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+  LastUpgradeVersion = "0500"
+  version = "1.3">
+  <BuildAction
+     parallelizeBuildables = "YES"
+     buildImplicitDependencies = "YES">
+     <BuildActionEntries>
+        <BuildActionEntry
+           buildForTesting = "YES"
+           buildForRunning = "YES"
+           buildForProfiling = "YES"
+           buildForArchiving = "YES"
+           buildForAnalyzing = "YES">
+           <BuildableReference
+              BuildableIdentifier = "primary"
+              BlueprintIdentifier = "5C2DC354EDE9DF816C3EB183"
+              BuildableName = "Discord.app"
+              BlueprintName = "Discord - iOS"
+              ReferencedContainer = "container:Discord.xcodeproj">
+           </BuildableReference>
+        </BuildActionEntry>
+     </BuildActionEntries>
+  </BuildAction>
+  <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+     selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+     shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "DebugGame">
+     <Testables>
+        <TestableReference
+           skipped = "NO">
+           <BuildableReference
+              BuildableIdentifier = "primary"
+              BlueprintIdentifier = "F065836E73C8A2F3415E76E1"
+              BuildableName = "UE4CmdLineRun.xctest"
+              BlueprintName = "UE4CmdLineRun"
+              ReferencedContainer = "container:Discord.xcodeproj">
+           </BuildableReference>
+        </TestableReference>
+     </Testables>
+     <MacroExpansion>
+        <BuildableReference
+           BuildableIdentifier = "primary"
+           BlueprintIdentifier = "5C2DC354EDE9DF816C3EB183"
+           BuildableName = "Discord.app"
+           BlueprintName = "Discord - iOS"
+           ReferencedContainer = "container:Discord.xcodeproj">
+        </BuildableReference>
+     </MacroExpansion>
+  </TestAction>
+  <LaunchAction
+     selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+     selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+     launchStyle = "0"
+     useCustomWorkingDirectory = "NO"
+     buildConfiguration = "DebugGame"
+     ignoresPersistentStateOnLaunch = "NO"
+     debugDocumentVersioning = "YES"
+     allowLocationSimulation = "YES">
+     <BuildableProductRunnable>
+        <BuildableReference
+           BuildableIdentifier = "primary"
+           BlueprintIdentifier = "5C2DC354EDE9DF816C3EB183"
+           BuildableName = "Discord.app"
+           BlueprintName = "Discord - iOS"
+           ReferencedContainer = "container:Discord.xcodeproj">
+        </BuildableReference>
+     </BuildableProductRunnable>
+     <CommandLineArguments>
+        <CommandLineArgument
+           argument = "&quot;/Volumes/Bigger Ninja/vc/Discord/Discord.uproject&quot;"
+           isEnabled = "YES">
+        </CommandLineArgument>
+        <CommandLineArgument
+           argument = "-debug"
+           isEnabled = "YES">
+        </CommandLineArgument>
+      </CommandLineArguments>
+     <AdditionalOptions>
+     </AdditionalOptions>
+  </LaunchAction>
+  <ProfileAction
+     shouldUseLaunchSchemeArgsEnv = "YES"
+     savedToolIdentifier = ""
+     useCustomWorkingDirectory = "NO"
+     buildConfiguration = "Development"
+     debugDocumentVersioning = "YES">
+     <PathRunnable
+        FilePath = "/Volumes/Bigger Ninja/vc/Discord/Binaries/Mac/Discord.app">
+     </PathRunnable>
+     <BuildableProductRunnable>
+         <BuildableReference
+             BuildableIdentifier = "primary"
+	          BlueprintIdentifier = "5C2DC354EDE9DF816C3EB183"
+             BuildableName = "Discord.app"
+             BlueprintName = "Discord"
+             ReferencedContainer = "container:UE4.xcodeproj">
+         </BuildableReference>
+     </BuildableProductRunnable>
+  </ProfileAction>
+  <AnalyzeAction
+     buildConfiguration = "DebugGame">
+  </AnalyzeAction>
+  <ArchiveAction
+     buildConfiguration = "Development"
+     revealArchiveInOrganizer = "YES">
+  </ArchiveAction>
+</Scheme>
